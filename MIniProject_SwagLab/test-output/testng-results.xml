@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-16T17:51:02 IST" name="Suite" finished-at="2025-10-16T17:51:11 IST" duration-ms="8920">
+    <groups>
+    </groups>
+    <test started-at="2025-10-16T17:51:02 IST" name="test001" finished-at="2025-10-16T17:51:05 IST" duration-ms="3038">
+      <class name="tests.Test001_SauceDemo">
+        <test-method signature="validateTitleAndURL()[pri:1, instance:tests.Test001_SauceDemo@6150c3ec]" started-at="2025-10-16T17:51:02 IST" name="validateTitleAndURL" finished-at="2025-10-16T17:51:03 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAndURL -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:tests.Test001_SauceDemo@6150c3ec]" started-at="2025-10-16T17:51:03 IST" name="captureFailure" finished-at="2025-10-16T17:51:03 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTitleAndURL status=SUCCESS method=Test001_SauceDemo.validateTitleAndURL()[pri:1, instance:tests.Test001_SauceDemo@6150c3ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method signature="loginAndCheckout()[pri:2, instance:tests.Test001_SauceDemo@6150c3ec]" started-at="2025-10-16T17:51:03 IST" name="loginAndCheckout" finished-at="2025-10-16T17:51:05 IST" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndCheckout -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:tests.Test001_SauceDemo@6150c3ec]" started-at="2025-10-16T17:51:05 IST" name="captureFailure" finished-at="2025-10-16T17:51:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAndCheckout status=SUCCESS method=Test001_SauceDemo.loginAndCheckout()[pri:2, instance:tests.Test001_SauceDemo@6150c3ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+      </class> <!-- tests.Test001_SauceDemo -->
+    </test> <!-- test001 -->
+    <test started-at="2025-10-16T17:51:02 IST" name="test002" finished-at="2025-10-16T17:51:11 IST" duration-ms="8920">
+      <class name="tests.Test002_PrintLinks">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Test002_PrintLinks@5e5d171f]" started-at="2025-10-16T17:51:02 IST" name="setUp" finished-at="2025-10-16T17:51:11 IST" duration-ms="8388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="printAllLinks()[pri:0, instance:tests.Test002_PrintLinks@5e5d171f]" started-at="2025-10-16T17:51:11 IST" name="printAllLinks" finished-at="2025-10-16T17:51:11 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test002_PrintLinks@5e5d171f]" started-at="2025-10-16T17:51:11 IST" name="tearDown" finished-at="2025-10-16T17:51:11 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test002_PrintLinks -->
+      <class name="tests.Test001_SauceDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Test001_SauceDemo@6150c3ec]" started-at="2025-10-16T17:50:53 IST" name="setUp" finished-at="2025-10-16T17:51:02 IST" duration-ms="9045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test001_SauceDemo@6150c3ec]" started-at="2025-10-16T17:51:11 IST" name="tearDown" finished-at="2025-10-16T17:51:12 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test001_SauceDemo -->
+    </test> <!-- test002 -->
+  </suite> <!-- Suite -->
+</testng-results>
